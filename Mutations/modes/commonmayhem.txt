@@ -1,0 +1,20 @@
+"commonmayhem"
+{
+  "base"              "coop"
+  "maxplayers"        "4"
+  "hasdifficulty"     "1"
+
+  "DisplayTitle"      "Common Mayhem"
+  "ShortDescription"  "Survive the horde"
+  "Description"       "Only Common Infected and Boomers. 1 incaps only"
+
+  "Image"             "maps/any"
+  "Author"            "dfx"
+
+  convar
+  {
+    survivor_max_incapacitated_count 1
+    allow_all_bot_survivor_team 1
+    sb_all_bot_game 1
+  }
+}

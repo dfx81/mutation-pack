@@ -1,0 +1,29 @@
+"witchtrial"
+{
+  "base"              "coop"
+  "maxplayers"        "4"
+  "hasdifficulty"     "1"
+
+  "DisplayTitle"      "Witch Trial"
+  "ShortDescription"  "Which of you will survive?"
+  "Description"       "1 Jockey and a lot of Witches with reduced health. Witch instantly kills in all difficulty"
+
+  "Image"             "maps/any"
+  "Author"            "dfx"
+
+  convar
+  {
+    allow_all_bot_survivor_team 1
+    sb_all_bot_game 1
+    z_witch_always_kills 1
+    survivor_max_incapacitated_count 0
+    hud_deathnotice_threats 1
+    // sv_force_time_of_day 5
+    witch_force_wander 1
+    z_witch_health 500
+    z_survivor_respawn_health 100
+    jockey_pz_claw_dmg 1
+    z_jockey_health 750
+    z_jockey_ride_damage 1
+  }
+}

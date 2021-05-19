@@ -1,0 +1,19 @@
+"trojanbomb"
+{
+  "base"              "realism"
+  "maxplayers"        "4"
+  "hasdifficulty"     "1"
+
+  "DisplayTitle"      "Trojan Bomb"
+  "ShortDescription"  "Don't get puked on"
+  "Description"       "No commons but Boomers spawn rate increased. Getting puked basically triggers a panic event"
+
+  "Image"             "maps/any"
+  "Author"            "dfx"
+
+  convar
+  {
+    allow_all_bot_survivor_team 1
+    sb_all_bot_game 1
+  }
+}
